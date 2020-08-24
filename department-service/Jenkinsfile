@@ -32,10 +32,10 @@ spec:
     }
   }
   environment {
-    CREDS = credentials('bryan_docker_creds')
-    DOCKER_NAMESPACE = 'bryandollery'
+    CREDS = credentials('yaser_docker_creds')
+    DOCKER_NAMESPACE = 'yastoor24'
     SERVICE_NAME = 'department-service'
-    TOKEN=credentials('tester_token')
+    TOKEN=credentials('951484cc-9391-4095-a9d3-e3e5fd5cf94b')
   }
   stages {
       stage("debug") {
