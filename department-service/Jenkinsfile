@@ -35,7 +35,7 @@ spec:
     CREDS = credentials('yaser_docker_creds')
     DOCKER_NAMESPACE = 'yastoor24'
     SERVICE_NAME = 'department-service'
-    TOKEN=credentials('53bfeeb4-7831-4686-963a-20d976c50c9a')
+    TOKEN=credentials('567188b8-e088-41ef-b707-ef1a65defa85')
   }
   stages {
       stage("Build") {
