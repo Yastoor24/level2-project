@@ -12,19 +12,19 @@ spec:
       - path: /department
         backend:
           serviceName: department-service
-          servicePort: 80
+          servicePort: 8083
       - path: /office
         backend:
           serviceName: office-service
-          servicePort: 80
+          servicePort: 8084
       - path: /person
         backend:
           serviceName: person-service
-          servicePort: 80
+          servicePort: 8081
       - path: /person
         backend:
           serviceName: role-service
-          servicePort: 80
+          servicePort: 8082
       - path: /
         backend:
           serviceName: project-assessment-site
